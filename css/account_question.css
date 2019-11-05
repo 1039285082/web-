@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    background-color:rgb(226,226,226);
+
+}
+.nav{
+    width: 33.3%;
+    background-color: rgb(90,158,255);
+    height: 3rem;
+    float: left;
+}
+.title{
+    width: 33.3%;
+    height: 3rem;
+    float: left;
+    text-align: center;
+    background-color: rgb(90,158,255);
+    /*position: absolute;*/
+    font-size: 2rem;
+    color: white;
+}
+.normalquestion{
+    height: 3rem;
+    width: 33.3%;
+    float: left;
+    background-color: rgb(90,158,255);
+    /*position: absolute;*/
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+
+}
+.mytable{
+
+    background-color: white;
+}
+.mytable td{
+    border-bottom:solid 1px rgb(178,178,178);
+    height: 6.25rem;
+}

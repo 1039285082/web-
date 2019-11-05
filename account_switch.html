@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>切换账号</title>
+    <!--<link rel="stylesheet" type="text/css" href="css/account_change.css">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/mui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+
+</head>
+<body>
+
+    <header class="mui-bar mui-bar-nav" style="padding-right: 15px;background-color: rgb(90,158,255)">
+        <a class="mui-action-back mui-icon mui-icon-back mui-pull-left" style="color: white;font-size: 2rem;margin-top: -2px" ></a>
+        <h1 class="mui-title" style="color: white;font-size: 2rem">切换账号</h1>
+
+    </header>
+
+    <div class="mui-content">
+
+
+
+    <form class="mui-input-group" style="background-color: initial;width: 60%;text-align: center;margin-left: 20%;margin-right: 20%;margin-top: 30%;">
+        <div class="mui-input-row" style="border-width: 0px;">
+            <label>+86|</label>
+            <input type="number" class="mui-input-clear" style="-webkit-appearance:none;" placeholder="手机号">
+        </div>
+        <div class="mui-input-row">
+            <div style="position:absolute;left:0; right:10%; ">
+                <input type="text" class="mui-input" placeholder="验证码">
+            </div>
+            <div style="position:absolute;right:0; right: 0; ">
+            <button id='setting' class=" mui-full-right mui-btn-link">获取验证码</button>
+            </div>
+
+        </div>
+
+
+    </form>
+    <div style="text-align: center;padding-top: 10%">
+        <button type="button" class="mui-btn mui-btn-primary mui-btn-outlined" style="width: 20%;height: 20%">提交</button>
+    </div>
+
+
+    </div>
+    <script src="js/mui.min.js"></script>
+
+</body>
+</html>
